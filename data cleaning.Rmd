@@ -23,4 +23,10 @@ library(htmlwidgets)
 library(rgeoda)
 library(RColorBrewer)
 library(classInt)
+install.packages("readxl")
+library(readxl)
+event <- read_excel("./dataset/Lumex product screening data_final for capstone.xlsx", sheet=1)
+raw <- read_excel("./dataset/Lumex product screening data_final for capstone.xlsx", sheet=2)
+
 ```
+
