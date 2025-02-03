@@ -1,0 +1,26 @@
+---
+title: "Data Cleaning"
+author: "Zhiyu Wei"
+date: 2025-2-3
+output: github_document
+---
+
+#### Setup
+
+```{r setup, include = FALSE, warning = FALSE}
+library(tidyverse)
+library(dplyr)
+library(ggplot2)
+library(patchwork)
+library(knitr)
+library(sf)
+library(lubridate)
+library(stringr)
+library(leaflet)
+library(shiny)
+library(leaflet.extras)
+library(htmlwidgets)
+library(rgeoda)
+library(RColorBrewer)
+library(classInt)
+```
