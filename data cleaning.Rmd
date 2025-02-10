@@ -57,3 +57,7 @@ raw <- raw[-1, ]
 
 # EDA: Countires
 
+# code book: OBR = Office background reading (ng/m3)
+# SRB = Storage Room Background (ng/m3)
+# FHB = Fume Hood Background (ng/m3)
+
