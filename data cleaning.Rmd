@@ -1,5 +1,5 @@
 ---
-title: "Data Cleaning"
+title: "Data Cleaning (screening event)"
 author: "Zhiyu Wei"
 date: 2025-2-3
 output: github_document
@@ -29,3 +29,4 @@ raw <- read_excel("./dataset/Lumex product screening data_final for capstone.xls
 
 ```
 
+# EDA: Countires,
