@@ -29,4 +29,31 @@ raw <- read_excel("./dataset/Lumex product screening data_final for capstone.xls
 
 ```
 
-# EDA: Countires,
+# Data cleaning
+```{r column names and row number}
+colnames(raw)[4:6] <- raw[1, 4:6]
+
+colnames(raw)[8:12] <- raw[1, 8:12]
+
+colnames(raw)[16:26] <- raw[1, 16:26]
+
+colnames(raw)[31] <- raw[1, 31]
+
+colnames(raw)[33:36] = raw[1, 33:36]
+
+colnames(raw)[38:43] = raw[1, 38:43]
+
+colnames(raw)[45:46] = raw [1, 45:46]
+
+colnames(raw)[48:50] = raw[1, 48:50]
+
+colnames(raw)[51:53] = raw[1, 51:53]
+
+# remove first row becasue of redundancy
+raw <- raw[-1, ]
+
+```
+
+
+# EDA: Countires
+
